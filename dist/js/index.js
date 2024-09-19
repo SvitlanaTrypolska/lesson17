@@ -1,0 +1,1 @@
+$(function(){$("#tabs").tabs(),$(".slider").slick({dots:!0,arrows:!1,slidesToShow:1,slidesToScroll:1,lazyLoad:"ondemand",swipeToSlide:!0,centerMode:!0});$("#dialog-form").dialog({autoOpen:!1,height:400,width:350,modal:!0});$(".open-modal").click(function(){$("#dialog-form").dialog("open")})});

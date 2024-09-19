@@ -1,0 +1,129 @@
+$main-gradient: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+$gradient-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+$gradient-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+$gradient-text-reversed:  linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+
+
+
+
+$accent: rgba(240, 20, 90, 1);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+}
+
+.container {
+ a {
+  color: white;
+ }
+ .btn.small {
+  color: white;
+ }
+}
+.container-section2 {
+  p{
+    color: white;
+  }
+} 
+.flex-column{
+  h1 {
+    $accent: rgba(240, 20, 90, 1);
+  }
+}
+.section-3-text {
+h1 {
+  $accent: rgba(240, 20, 90, 1);
+}
+}
+
+.container-title2 {
+  h1{
+    $accent: rgba(240, 20, 90, 1);  
+font-size: 38px;
+font-weight: 700;
+line-height: 46.32px;
+
+
+  }
+}
+h1, h2, h3, h4, h5, h5, b, strong {
+  font-weight: 700;
+ 
+}
+
+.h1 {
+  font-size: 38px;
+  line-height: 46px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+h4 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+
+body {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Montserrat", sans-serif;
+ 
+ 
+
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.btn.small {
+  padding: 5px 7px;
+  font-size: 12px;
+  line-height: 14px;
+  border-radius: 8px;
+  background: transparent;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: background 0.3s;
+  text-transform: uppercase;
+
+  &.active, &:hover {
+    background: $accent;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+

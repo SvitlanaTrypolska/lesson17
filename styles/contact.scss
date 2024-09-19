@@ -1,0 +1,103 @@
+.header {
+  padding-top: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 116px;
+  color: rgba(179, 179, 186, 1); /* Серый */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+.top-block {
+  align-items: center;
+}
+
+.top-list {
+  display: flex;
+  list-style: none;
+  margin-left: 6px;
+  gap: 6px;
+  align-items: center;
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    display: inline-flex;
+  }
+
+  li:before {
+    content: '';
+    margin-right: 6px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: black;
+    border-radius: 50%;
+  }
+}
+
+/* Основные кнопки */
+.btn.small {
+  line-height: 14px;
+  padding: 5px 7px;
+  font-size: 12px;
+  background: transparent;
+  border-radius: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.3s;
+}
+
+.btn.small:active,
+.btn.small:hover {
+  background: rgb(240, 20, 90); /* Цвет при наведении */
+  color: rgba(179, 179, 186, 1);
+}
+
+/* Контейнеры */
+.container-main {
+  width: 510px;
+  height: 301px;
+  margin-left: 180px;
+  float: left;
+}
+
+.container-input {
+  width: 510px;
+  height: 603px;
+  float: right;
+}
+
+/* Контакты и текст */
+.p-2.bd-highlight1 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.h1 {
+  --bs-red: #d91326; /* Цвет красный */
+}

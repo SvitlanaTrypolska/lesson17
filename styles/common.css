@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+}
+
+.container a {
+  color: white;
+}
+.container .btn.small {
+  color: white;
+}
+
+.container-section2 p {
+  color: white;
+}
+
+.container-title2 h1 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46.32px;
+}
+
+h1, h2, h3, h4, h5, h5, b, strong {
+  font-weight: 700;
+}
+
+.h1 {
+  font-size: 38px;
+  line-height: 46px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+h4 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.btn.small {
+  padding: 5px 7px;
+  font-size: 12px;
+  line-height: 14px;
+  border-radius: 8px;
+  background: transparent;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: background 0.3s;
+  text-transform: uppercase;
+}
+.btn.small.active, .btn.small:hover {
+  background: rgb(240, 20, 90);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=common.css.map */
